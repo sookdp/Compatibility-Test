@@ -13,7 +13,7 @@ function loveScore(){
         names.innerHTML = "You have to write two names !";
     }
     else{
-        title.innerHTML = "Your Love Score";
+        title.innerHTML = "Your Compatibility Score";
         names.innerHTML = name1.value + " & " + name2.value;
         score.innerHTML = Math.floor(Math.random() * 101) + " %"
     }
